@@ -1,0 +1,9 @@
+- have a splash screen
+- DRAWER WIDGET
+-  Bottom Nav
+- Appbar as material Design + some pages to have simple appbar
+- Edit page is in progress
+- toasts, bottomsheets, alerts
+- button: have variants, focussed state
+- A slider probably for filtering the distance
+-
