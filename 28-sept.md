@@ -95,8 +95,4 @@ TODO: SHOW in OOPs
 - any
 
 
-#### suppose we declared an integer and changing it to string (coding based question)
-
-
-
 
