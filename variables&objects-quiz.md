@@ -105,3 +105,4 @@ void main() {
 
 ##  Make the immutablePoint constructor as a compile-time constant
 
+var p = __________ ImmutablePoint(2, 2);
