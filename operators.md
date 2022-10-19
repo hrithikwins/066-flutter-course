@@ -20,12 +20,12 @@ print(checkEven(3));
 
 answer: number % 2
 
-### What is the output
+### Calculate the output
 
 `print(5 ~/ 2 );`
 answer: 2
 
-### What is the output of the following code
+### Calculate the output of the following code
 
 ```
 void main() {
@@ -72,17 +72,17 @@ void main() {
 <hr> Probably not valid questions
 <hr>
 
-cascade notations
+[Read about cascade notations](https://dart.dev/guides/language/language-tour#cascade-notation)
 
-### How do you check for any two conditions to return true if both are true
+<!-- ### How do you check for any two conditions to return true if both are true
 
 ```
 void main(){
   print(2 == 2  __ 4 == 4);
 }
-```
+``` -->
 
-### print true to the console by using the valid operator
+### How do you check for both the conditions to be true to return true (AND operation)
 
 ```
 void main(){
@@ -90,6 +90,7 @@ void main(){
 }
 
 ```
+answer: && (logical AND) [read more](https://dart.dev/guides/language/language-tour#operators)
 
 <hr/>
 ###

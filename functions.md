@@ -9,7 +9,7 @@
 
 
 
-### Add valid function return type below
+### Return types are important in functions, how do you check and change the return type
 
 <!--
  -->
