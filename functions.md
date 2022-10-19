@@ -59,9 +59,9 @@ String greeting({String? firstName}){
 ```
 void main(){
   function helloWorld(){
-    print("The world is $hello");
+    return "The world is";
   }
-  print(helloWorld);
+  print(helloWorld());
 }
 ```
 String / void instead of function
