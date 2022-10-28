@@ -1,8 +1,8 @@
 ### Which of the following is NOT true about functions
 
 - You can pass a function as a parameter to another function.
-  -You can assign a function to a variable,
-  -You can create a nameless anonymous function.
+- You can assign a function to a variable,
+- You can create a nameless anonymous function.
 - If the function contains only a single expression or return statement, you can shorten it using arrow notation.
 - You can only define functions inside the main() method
 
