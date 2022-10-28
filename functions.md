@@ -6,6 +6,10 @@
 - If the function contains only a single expression or return statement, you can shorten it using arrow notation.
 - You can only define functions inside the main() method
 
+----
+give reasons for more information and give explanation as well
+passing function
+---
 
 
 
@@ -15,25 +19,42 @@
  -->
 
 ```
+
 void main(){
-final _nobleGases = const {
-  2: 'helium',
-  10: 'neon',
-  18: 'argon',
-};
-______ isNoble(int atomicNumber) {
-  return _nobleGases[atomicNumber] != null;
+int _bananaCount = 10;
+________ isDozen(int bananaCount) {
+  return bananaCount == 12;
 }
 
-if(isNoble(1)){
-  print("the gas is noble");
-}else{
-  print("the gas is not noble");
+  print(isDozen(_bananaCount));
 }
-}
+
 
 ```
 answer: bool
+---
+recursion functions also
+--
+
+### You're writing a program in dart to demonstrate nth Fibonacci number to demonstrate recursion in dart, how do you achieve that
+<!-- how do we ask question here -->
+
+```
+
+int fibonacci(int n){
+  if(n<=1)
+    return n;
+  return fibonacci(n-1)+fibonacci(n-2);
+}
+
+
+void main() {
+  print(fibonacci(6));
+}
+```
+
+answer: _____________  Read more about recursion function [Read more](https://www.tutorialkart.com/dart/dart-recursion-function/)
+
 
 
 
@@ -90,5 +111,32 @@ answer: print(say("Programmer", "hello" ));
 ### Which brackets do you use for named and optional positional parameters respectively
 - {} for named parameters and [] for optional parameters
 - {} for named and () for optional
+[REad More](https://www.codevscolor.com/dart-optional-positional-named-default)
 
+
+
+-- simple questions in functions to understand loops
+
+
+
+how function is running in loop
+while and do-while loops, for and etc as well
+
+
+### Write a function to calculate the factorial of the number
+
+```
+void main() {
+   var num = 5;
+   var factorial = 1;
+
+   while(num >=1) {
+      factorial = factorial * num;
+      num--;
+   }
+   print("The factorial  is ${factorial}");
+}
+```
+answer: ------------------- [read more about ]
+```
 
