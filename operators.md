@@ -8,22 +8,23 @@ Conditional expressions
 Cascade notation
 Other operators
 
-### Check whether the following number is even
+### There are several operators which help in arithmetic operations,. Here we've taken a function which is going to return a boolean when the number is even.
+Hint: We need to have some operator which can return the remainder when divided by 2
 
 ```
 
-function checkEven(number){
-  return (number _________);
+bool checkEven(number){
+  return (number _________==0);
 }
 print(checkEven(3));
 ```
+answer: number % 2 [read about arithmetic operators](https://dart.dev/guides/language/language-tour#arithmetic-operators)
 
-answer: number % 2
+### Suppose you want to have a operator which can return the quotient only without caring for the remainder and the output be in integer(whole number) format
 
-### Calculate the output
+`print(5 __ 2 );` // outputs 2
 
-`print(5 ~/ 2 );`
-answer: 2
+answer: using the truncate division operator (~/) [read more about the truncate division operator](https://api.dart.dev/stable/2.10.4/dart-core/num/operator_truncate_divide.html)
 
 ### Calculate the output of the following code
 
@@ -40,39 +41,8 @@ void main() {
 answer: the value of 6(val of c) + 2 + 5 + 2(now 3) / 3 + 4
 With DMAS it's first 2/3 = 0.66666 and rest of things to be added up...
 
-## Confirm whether the data type is double
-
-```
-void main(){
-   var x = 25;
-   print( ______);
-}
-```
-
-answer: x is double
 
 
-### conditional: what will this function return
-```
-void main() {
-   var n1 = null;
-   var n2 = 15;
-   var res = n1 ?? n2;
-   print(res);
-}
-```
-- value of n1
-- checks for their values and returns boolean( 'false' if both are not equal)
-- returns the pointer address between both the cells
-
-
-
-
-
-<hr> Probably not valid questions
-<hr>
-
-[Read about cascade notations](https://dart.dev/guides/language/language-tour#cascade-notation)
 
 <!-- ### How do you check for any two conditions to return true if both are true
 
@@ -82,7 +52,7 @@ void main(){
 }
 ``` -->
 
-### How do you check for both the conditions to be true to return true (AND operation)
+### In the below code print "Union Territory" if it is a state and has a
 
 ```
 void main(){
