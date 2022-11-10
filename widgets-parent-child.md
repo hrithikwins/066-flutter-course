@@ -26,6 +26,17 @@ answer: (c) Cupertino ......Material Widgets are used for Android Style [Read Ab
 answer: TextInput [Read More about TextInput](https://api.flutter.dev/flutter/widgets/TextInput-class.html)
 
 
+
+### Are widgets immutable?
+- Yes
+- No
+answer: yes widgets are immutable in flutter, there are three types of trees in flutter: 1. widget tree 2. element tree 3. render tree [Read More about widget tree](https://flutter.dev/docs/development/ui/widgets-intro).. The widget tree never changes... Elements are mutable pieces of widgets...and renderObject handles the sizing and painting of the widgets..
+TODO: this question series to be continued in state managemnet
+
+
+
+
+
 <!-- ### Each Widget is a class and when created they have different constructors, How do we customize a widget in flutter
 - By parameters
 - By  properties

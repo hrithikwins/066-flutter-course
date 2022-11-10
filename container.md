@@ -111,3 +111,42 @@ answer: it'll be 220px as the margin is added to the blue container which is ins
 
 
 
+### [difficult] Given, the container has a border of 5px ..what is the new size of the container
+
+```
+.container {
+  width: 100,
+  height: 100,
+  border:
+  Border.all(
+                    width: 5,
+                    color: Colors.red
+                ),
+}
+```
+answer: 110px height and 110px width .. as border is added to the container on all sides
+
+
+### [difficult] Which of these is not a property of BoxShadow of box decoration
+
+- blurRadius
+- offset
+- spreadRadius
+- blurStyle
+- backgroundColor
+answer: backgroundColor .. there is a property as 'color' for BoxShadow of box but no property as 'backgroundColor' [read more](https://api.flutter.dev/flutter/painting/BoxShadow-class.html)
+
+### [medium] Which of these properties of BoxDecoration Class help make the container rounded
+- boxSide
+- borderRadius
+- borderSide
+- circularRadius
+answer: borderRadius .. [read more](https://api.flutter.dev/flutter/painting/BoxDecoration-class.html)
+
+### [difficult] Can you add a custom background shape to the Container
+- Yes
+- No
+answer: Yes using the 'shape' property .. [read more](https://api.flutter.dev/flutter/painting/BoxShadow-class.html)
+
+
+
