@@ -9,6 +9,7 @@ print(i); //null
 
 
 solution: add int? as dataType to make it nullable (int? i = null;) [read more about null operators](https://dart.dev/null-safety/understanding-null-safety#null-operators)
+<!-- just commiting -->
 
 ### [easy] What type of parameter does this makeCoffee function take?
 //this question is the make users understand about null safety in practice to have a better understanding of the concept an duse for reusable widgets
